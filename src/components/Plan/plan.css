@@ -1,0 +1,17 @@
+#bg {
+    height: 650px;
+    background:#09002B;
+}
+
+#btn-link {
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(180deg, #C157AB 0%, #FB85A1 100%);
+    transition: .3s;
+    cursor: pointer;
+}
+
+#btn-link:hover {
+    background: linear-gradient(180deg, #930475 0%, #FF275C 100%);
+}
