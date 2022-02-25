@@ -10,10 +10,10 @@ const Plan = () => {
         <>
             <section id="bg">
                 <div className="h-full flex justify-around flex-col">
-                    <div className=" flex  justify-around  p-36">
-                        <img src={Img1} alt="" />
-                        <img src={Img2} alt="" />
-                        <img src={Img3} alt="" />
+                    <div className=" flex  justify-around p-36 ">
+                        <img className="hover:-translate-y-3 duration-500" src={Img1} alt="" />
+                        <img className="hover:-translate-y-3 duration-500" src={Img2} alt="" />
+                        <img className="hover:-translate-y-3 duration-500" src={Img3} alt="" />
                     </div>
 
                     <div className="text-center relative bottom-16 ">

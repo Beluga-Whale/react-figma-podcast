@@ -5,13 +5,14 @@
 
 #btn-link {
     padding: 0.5rem;
+    background: linear-gradient(180deg, #C157AB 0%, #FB85A1 100%);
     border-radius: 5px;
     color: #fff;
-    background: linear-gradient(180deg, #C157AB 0%, #FB85A1 100%);
-    transition: .3s;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
 #btn-link:hover {
+    transition: all .2s ease-in-out;
     background: linear-gradient(180deg, #930475 0%, #FF275C 100%);
 }

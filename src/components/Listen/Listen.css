@@ -1,0 +1,18 @@
+#listenBg {
+    background:#11024B;
+}
+
+.btn {
+    background: #3531A9;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 3rem;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transition: all .2s ease-in-out;
+    background:#1A1780;
+}

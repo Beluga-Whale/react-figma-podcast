@@ -9,12 +9,12 @@ import './navbar.css'
 const Navbar = () => {
     return (
         <>
-            <nav id="nav" className=" h-16 fixed w-full " >
+            <nav id="nav" className=" h-16 fixed w-full z-10 " >
                 <div className="w-full flex justify-between items-center h-full px-24  ">
                     <ul className="flex justify-between w-96 text-white font-medium cursor-pointer ">
 
                         <li className="transition ease-in-out  hover:-translate-y-1 duration-300" >
-                            <Link to='/' >Home</Link>
+                            <Link to='hero' smooth={true} duration={500} >Home</Link>
                         </li>
 
                         <li className="transition ease-in-out  hover:-translate-y-1 duration-300">
